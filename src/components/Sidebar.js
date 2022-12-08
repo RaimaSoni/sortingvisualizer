@@ -57,7 +57,7 @@ function Sidebar() {
 
    useEffect(() => {
       handleRange(30);
-   },// eslint-disable-next-line
+   },
    []);
 
    useEffect(() => {
@@ -65,7 +65,7 @@ function Sidebar() {
          type:'UPDATE_COLOR',
          color:document.getElementById('color').value
       })
-   }, // eslint-disable-next-line
+   }, 
    [myState.values]);
 
    const handleWidth = () => {

@@ -14,14 +14,12 @@ function Header() {
       <div id="header__bar" style = {{transform: showHeaderBar? `translateY(120px)`: `translateY(0px)`}}>
         <h3 className="header__bar__title">Frontend Developer</h3>
         <div className="header__bar__icons">
-          {/* <a href="https://www.facebook.com/dasharath.dasharath.1694/" ><img src="https://img.icons8.com/ios/50/000000/facebook--v1.png"/></a> */}
-          {/* <a href="https://www.instagram.com/dasharath_116/" ><img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"/></a> */}
-          {/* <a href="https://github.com/Dasharath9920"><img src="https://img.icons8.com/ios/50/000000/github--v1.png" alt="image"/></a> */}
-          {/* <a href="https://www.linkedin.com/in/dyavari-dasharath-b767021b3/" ><img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="image"/></a> */}
+          {<a href="https://github.com/RaimaSoni"><img src="https://img.icons8.com/ios/50/000000/github--v1.png" alt="image"/></a>}
+          {<a href="https://www.linkedin.com/in/raimasoni/" ><img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="image"/></a>}
         </div>
       </div>
 
-      <div className="header-logo">Algo<span>Visuals</span></div>
+      <div className="header-logo">SORTING<span> VISUALIZER</span></div>
       <div className="header__options">
          <h3 className="header__option" onClick = {contactHandler}><span>G</span>et <span>I</span>n <span>T</span>ouch</h3>
       </div>

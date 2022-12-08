@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import BubbleSort from './BubbleSort';
+import BubbleSort from "./BubbleSort";
 import InsertionSort from './InsertionSort';
 import QuickSort from './QuickSort';
 import MergeSort from './MergeSort';

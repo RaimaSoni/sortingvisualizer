@@ -57,14 +57,16 @@ function Sidebar() {
 
    useEffect(() => {
       handleRange(30);
-   },[]);
+   },// eslint-disable-next-line
+   []);
 
    useEffect(() => {
       dispatch({
          type:'UPDATE_COLOR',
          color:document.getElementById('color').value
       })
-   },[myState.values]);
+   }, // eslint-disable-next-line
+   [myState.values]);
 
    const handleWidth = () => {
       if(window.innerWidth>1300)
